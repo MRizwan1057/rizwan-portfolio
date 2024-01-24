@@ -1590,12 +1590,15 @@ img.cta-shape {
 }
 
 .sinlge-social-hover {
+  object-fit: cover;
   position: relative;
   z-index: 2;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
   overflow: hidden;
+  margin: 7px;
+  border-radius: 10px;
 }
 
 .sinlge-social-hover:after {
